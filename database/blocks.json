@@ -1,0 +1,170 @@
+[
+  {
+    "species": "Lion's Mane",
+    "substrate": {
+      "type": "wood and grain mixture",
+      "amount": {
+        "unit": "gram",
+        "value": 200
+      }
+    },
+    "inoculation": {
+      "type": "liquid culture",
+      "amount": {
+        "unit": "cc",
+        "value": 5
+      }
+    },
+    "flushes":[
+      {
+        "iteration": 1,
+        "timestamp":"2024-01-05T07:00:00.000+00:00",
+        "amount":{
+          "unit": "gram",
+          "value": 200
+        }
+      },
+      {
+        "iteration": 2,
+        "timestamp":"2024-01-05T07:00:00.000+00:00",
+        "amount":{
+          "unit": "gram",
+          "value": 200
+        }
+      },
+      {
+        "iteration": 3,
+        "timestamp":"2024-01-05T07:00:00.000+00:00",
+        "amount":{
+          "unit": "gram",
+          "value": 200
+        }
+      }
+    ],
+    "keywords": ["lion's mane", "wood grain mixture", "5cc"],
+    "logs": [
+      {
+        "type": "inoculation",
+        "timestamp": "2024-01-05T07:00:00.000+00:00",
+        "context": {
+          "stage": "colonization",
+          "environment": {
+            "humidity": {
+              "unit": "%RH",
+              "value": 85
+            },
+            "temperature": {
+              "unit": "Fahrenheit",
+              "value": 72
+            },
+            "CO2": {
+              "unit": "ppm",
+              "value": 200
+            }
+          }
+        }
+      },
+      {
+        "type": "measurement",
+        "timestamp": "2024-01-06T07:00:00.000+00:00",
+        "context": {
+          "stage": "colonization",
+          "environment": {
+            "humidity": {
+              "unit": "%RH",
+              "value": 85
+            },
+            "temperature": {
+              "unit": "Fahrenheit",
+              "value": 72
+            },
+            "CO2": {
+              "unit": "ppm",
+              "value": 200
+            }
+          }
+        }
+      },
+      {
+        "type": "fully-colonized",
+        "timestamp": "2024-01-30T07:00:00.000+00:00",
+        "context": {
+          "stage": "fruiting",
+          "environment": {
+            "humidity": {
+              "unit": "%RH",
+              "value": 85
+            },
+            "temperature": {
+              "unit": "Fahrenheit",
+              "value": 72
+            },
+            "CO2": {
+              "unit": "ppm",
+              "value": 200
+            }
+          }
+        }
+      },
+      {
+        "type": "first-flush",
+        "timestamp": "2024-02-07T07:00:00.000+00:00",
+        "context": {
+          "stage": "spent",
+          "flush": {
+            "iteration": 1,
+            "timestamp":"2024-01-05T07:00:00.000+00:00",
+            "amount":{
+              "unit": "gram",
+              "value": 200
+            }
+          }
+        }
+      },
+      {
+        "type": "revivification",
+        "timestamp": "2024-02-08T07:00:00.000+00:00",
+        "context": {
+          "stage": "fruiting"
+        }
+      },
+      {
+        "type": "second-flush",
+        "timestamp": "2024-02-25T07:00:00.000+00:00",
+        "context": {
+          "stage": "spent",
+          "flush": {
+            "iteration": 1,
+            "timestamp":"2024-01-05T07:00:00.000+00:00",
+            "amount":{
+              "unit": "gram",
+              "value": 200
+            }
+          }
+        }
+      },
+      {
+        "type": "revivification",
+        "timestamp": "2024-02-26T07:00:00.000+00:00",
+        "context": {
+          "stage": "fruiting"
+        }
+      },
+      {
+        "type": "third-flush",
+        "timestamp": "2024-03-25T07:00:00.000+00:00",
+        "context": {
+          "stage": "spent",
+          "flush": {
+            "iteration": 1,
+            "timestamp":"2024-01-05T07:00:00.000+00:00",
+            "amount":{
+              "unit": "gram",
+              "value": 200
+            }
+          }
+        }
+      }
+    ]
+  }
+]
